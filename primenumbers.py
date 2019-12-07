@@ -3,7 +3,7 @@ def primenumbercheck(x):
     modulus = []
     for i in range(2,x):
         modulus.append(x % i)
-    if 0 not in modu:
+    if 0 not in modulus:
         return(x)
 
 def primenumbersinrange(y):
